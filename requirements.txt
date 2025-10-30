@@ -1,0 +1,7 @@
+streamlit
+rasterio
+numpy
+matplotlib
+gdown
+pandas
+xlsxwriter
