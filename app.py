@@ -6,6 +6,7 @@ import io
 import tempfile
 import gdown
 import pandas as pd
+import os
 
 # Sample Google Drive file IDs and names for years 2020-2023
 sample_files = [
@@ -177,11 +178,12 @@ uploaded_files = st.file_uploader("Upload GeoTIFF files", type=['tif','tiff'], a
 
 if uploaded_files:
     loading_spinner("Processing uploaded files...")
+    temp_dir = tempfile.gettempdir()
     for uploaded_file in uploaded_files:
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".tif") as tmp:
-            tmp.write(uploaded_file.getbuffer())
-            tmp_path = tmp.name
-        stats = process_and_display(tmp_path, uploaded_file.name)
+        temp_path = os.path.join(temp_dir, uploaded_file.name.replace(" ", "_"))
+        with open(temp_path, "wb") as f:
+            f.write(uploaded_file.getbuffer())
+        stats = process_and_display(temp_path, uploaded_file.name)
         image_names.append(uploaded_file.name)
         ndvi_stats_list.append(stats)
 
@@ -205,7 +207,6 @@ if image_names and ndvi_stats_list:
         df.to_excel(writer, sheet_name='NDVI Stats')
         workbook = writer.book
         worksheet = writer.sheets['NDVI Stats']
-        # Format for better excel readability
         format1 = workbook.add_format({'num_format': '0.000'})
         worksheet.set_column('B:D', 12, format1)
     towrite.seek(0)
@@ -235,7 +236,7 @@ footer_html = '''
 <div class="footer">
     Made with ❤️ by
     <a href="https://github.com/tanishpoddar" target="_blank">Tanish Poddar</a>,
-    <a href="https://github.com/Zahraaabidha" target="_blank">Aabidha Zahra</a>, and
+    <a href="https://github.com/Zahraaabidha" target="_blank">Aabidha Zehra</a>, and
     <a href="https://github.com/MPranaviReddy" target="_blank">Pranavi Reddy</a>.
 </div>
 '''
