@@ -33,8 +33,10 @@ Main features include:
 ## How to Run
 
 1. Clone or download the repository.
-
-2. Install required dependencies using:
+```
+https://github.com/tanishpoddar/GreenVision.git
+```
+3. Install required dependencies using:
 ```
 pip install -r requirements.txt
 ```
