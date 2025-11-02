@@ -236,7 +236,7 @@ footer_html = '''
 <div class="footer">
     Made with ❤️ by
     <a href="https://github.com/tanishpoddar" target="_blank">Tanish Poddar</a>,
-    <a href="https://github.com/Zahraaabidha" target="_blank">Aabidha Zehra</a>, and
+    <a href="https://github.com/Zahraaabidha" target="_blank">Aabidha Zahra</a>, and
     <a href="https://github.com/MPranaviReddy" target="_blank">Pranavi Reddy</a>.
 </div>
 '''
