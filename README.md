@@ -1,21 +1,12 @@
 # GreenVision: NDVI Analysis & Visualization
 
-<a href="https://streamlit.io/">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
-</a>&nbsp;&nbsp;&nbsp;
-<a href="https://numpy.org/">
-  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=NumPy&logoColor=white" alt="NumPy"/>
-</a>&nbsp;&nbsp;&nbsp;
-<a href="https://pandas.pydata.org/">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white" alt="Pandas"/>
-</a>&nbsp;&nbsp;&nbsp;
-<a href="https://matplotlib.org/">
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib"/>
-</a>&nbsp;&nbsp;&nbsp;
-<a href="https://gdown.readthedocs.io/en/latest/">
-  <img src="https://img.shields.io/badge/gdown-Blue?style=for-the-badge&logo=python&logoColor=white" alt="gdown"/>
-</a>
-
+<p align="left">
+  <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"></a>
+  <a href="https://numpy.org/"><img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=NumPy&logoColor=white" alt="NumPy"></a>
+  <a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white" alt="Pandas"></a>
+  <a href="https://matplotlib.org/"><img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib"></a>
+  <a href="https://gdown.readthedocs.io/en/latest/"><img src="https://img.shields.io/badge/gdown-28A745?style=for-the-badge&logo=python&logoColor=white" alt="gdown"></a>
+</p>
 
 ## Overview
 
