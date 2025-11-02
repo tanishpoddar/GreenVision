@@ -236,8 +236,8 @@ footer_html = '''
 <div class="footer">
     Made with ❤️ by
     <a href="https://github.com/tanishpoddar" target="_blank">Tanish Poddar</a>,
-    <a href="https://github.com/Zahraaabidha" target="_blank">Aabidha Zahra</a>, and
-    <a href="https://github.com/MPranaviReddy" target="_blank">Pranavi Reddy</a>.
+    <a href="https://github.com/MPranaviReddy" target="_blank">Pranavi Reddy</a>, and
+    <a href="https://github.com/Zahraaabidha" target="_blank">Aabidha Zahra</a>
 </div>
 '''
 st.markdown(footer_html, unsafe_allow_html=True)
