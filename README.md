@@ -43,7 +43,7 @@ pip install -r requirements.txt
 To enable **AI-powered temporal analysis**, you need an OpenRouter API key:
 
 #### Step 1: Get Your OpenRouter API Key
-1. Visit [OpenRouter]([https://openrouter.ai/](https://openrouter.ai/minimax/minimax-m2:free))
+1. Visit [OpenRouter](https://openrouter.ai/minimax/minimax-m2:free)
 2. Sign up or log in to your account
 3. Navigate to **Keys** section
 4. Create a new API key
